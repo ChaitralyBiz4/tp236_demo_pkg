@@ -1,0 +1,17 @@
+{
+    "name": "chaitralybiz4/tp236_demo_pkg",
+    "description": "A PHP library for demo purpose.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chaitraly Bhagyawant",
+            "email": "chaitrali.bhagyawant@biz4solutions.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ChaitralyBiz4\\tp236_demo_pkg\\": "src/"
+        }
+    }
+}
