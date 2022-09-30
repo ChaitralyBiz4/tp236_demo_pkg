@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ChaitralyBiz4\\DemoPackage\\' => array($baseDir . '/src'),
+    'Stripe\\' => array($vendorDir . '/stripe/stripe-php/lib'),
+    'ChaitralyBiz4\\tp236_demo_pkg\\' => array($baseDir . '/src'),
 );

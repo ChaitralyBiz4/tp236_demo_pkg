@@ -7,14 +7,22 @@ namespace Composer\Autoload;
 class ComposerStaticInit25787b5aca7b70750b922f328100fe23
 {
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Stripe\\' => 7,
+        ),
         'C' => 
         array (
-            'ChaitralyBiz4\\DemoPackage\\' => 26,
+            'ChaitralyBiz4\\tp236_demo_pkg\\' => 29,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'ChaitralyBiz4\\DemoPackage\\' => 
+        'Stripe\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
+        ),
+        'ChaitralyBiz4\\tp236_demo_pkg\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

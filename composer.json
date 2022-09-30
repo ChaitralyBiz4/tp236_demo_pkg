@@ -8,7 +8,9 @@
             "email": "chaitrali.bhagyawant@biz4solutions.com"
         }
     ],
-    "require": {},
+    "require": {
+        "stripe/stripe-php": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "ChaitralyBiz4\\tp236_demo_pkg\\": "src/"
