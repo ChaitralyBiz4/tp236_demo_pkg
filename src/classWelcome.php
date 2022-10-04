@@ -3,7 +3,7 @@
 namespace ChaitralyBiz4\tp236_demo_pkg;
 final class classWelcome {
 
-    private $city;
+    public $city;
     public function __construct(string $city)
     {
         echo "inside welcome constructor";
